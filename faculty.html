@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faculty Members - St. Ann's School</title>
+<link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <header>
+        <img src="2.jpg" alt="" >
+        <h1>St. Ann's School, Visakhapatnam</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="faculty.html">Our Faculty</a></li>
+                <li><a href="#facilities">Facilities</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="faculty-section">
+        <h2>Our Faculty</h2>
+        <div class="faculty-container">
+            <!-- Faculty Member 1 -->
+            <div class="faculty-member">
+                <div class="faculty-image-container">
+                    <img src="image.png" alt="Dr. Jane Smith, Head of Mathematics Department">
+                </div>
+                <div class="faculty-info">
+                    <h3>Faculty Name </h3>
+                    <p>Subject </p>
+                </div>
+            </div>
+     <!-- Faculty Member 2 -->
+            <div class="faculty-member">
+                <div class="faculty-image-container">
+                    <img src="image.png" alt="Dr. Jane Smith, Head of Mathematics Department">
+                </div>
+                <div class="faculty-info">
+                    <h3>Faculty Name </h3>
+                    <p>Subject </p>
+                </div>
+            </div>
+     <!-- Faculty Member 3 -->
+            <div class="faculty-member">
+                <div class="faculty-image-container">
+                    <img src="image.png" alt="Dr. Jane Smith, Head of Mathematics Department">
+                </div>
+                <div class="faculty-info">
+                    <h3>Faculty Name </h3>
+                    <p>Subject </p>
+                </div>
+            </div>
+     <!-- Faculty Member 4 -->
+            <div class="faculty-member">
+                <div class="faculty-image-container">
+                    <img src="image.png" alt="Dr. Jane Smith, Head of Mathematics Department">
+                </div>
+                <div class="faculty-info">
+                    <h3>Faculty Name </h3>
+                    <p>Subject </p>
+                </div>
+            </div>
+     <!-- Faculty Member 5 -->
+            <div class="faculty-member">
+                <div class="faculty-image-container">
+                    <img src="image.png" alt="Dr. Jane Smith, Head of Mathematics Department">
+                </div>
+                <div class="faculty-info">
+                    <h3>Faculty Name </h3>
+                    <p>Subject </p>
+                </div>
+            </div>
+     <!-- Faculty Member 6 -->
+            <div class="faculty-member">
+                <div class="faculty-image-container">
+                    <img src="image.png" alt="Dr. Jane Smith, Head of Mathematics Department">
+                </div>
+                <div class="faculty-info">
+                    <h3>Faculty Name </h3>
+                    <p>Subject </p>
+                    
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</body>
+
+
+<style>body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.faculty-section {
+    text-align: center;
+    padding: 4em 0;
+}
+
+.faculty-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 2em;
+    padding: 0 4em;
+}
+
+.faculty-member {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+.faculty-member:hover {
+    transform: translateY(-10px);
+}
+
+.faculty-image-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.faculty-image-container img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.faculty-member:hover .faculty-image-container img {
+    transform: scale(1.1);
+}
+
+.faculty-info {
+    padding: 1em;
+}
+
+.faculty-info h3 {
+    margin-top: 0;
+}
+
+ 
+@media (max-width: 768px) {
+    .faculty-container {
+        padding: 0 2em;
+    }
+}
+</style>
+</html>
